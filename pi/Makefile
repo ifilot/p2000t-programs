@@ -1,7 +1,7 @@
 pi.bin: main.rom
 	cp -v main.rom pi.bin
 
-main.bin: main.c
+main.rom: main.c
 	zcc \
 	+embedded -clib=sdcc_iy \
 	main.c \
