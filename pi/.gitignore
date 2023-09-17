@@ -1,0 +1,9 @@
+main.bin
+main.c.sym
+main.map
+main.rom
+main_BSS.bin
+main_CODE.bin
+main_DATA.bin
+main.o
+P2000.cas
