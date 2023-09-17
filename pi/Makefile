@@ -1,5 +1,5 @@
 pi.bin: main.rom
-	cp -v main.rom pi.bin
+	cp -v main.rom pi.bin && truncate -s 16KB pi.bin
 
 main.rom: main.c
 	zcc \
