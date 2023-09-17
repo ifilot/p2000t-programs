@@ -1,4 +1,4 @@
-pi.bin:
+pi.bin: main.rom
 	cp -v main.rom pi.bin
 
 main.bin: main.c
